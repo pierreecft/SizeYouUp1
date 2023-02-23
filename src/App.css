@@ -1,0 +1,103 @@
+.App {
+  background-color: #F5F4F2;
+}
+
+.App-logo {
+  width: 192px;
+  height: 153px;
+  margin-right: 520px;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  padding-top: 25px;
+  margin-right: 30px;
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 22px;
+}
+
+.about {
+  color: #796C6C;
+}
+.login {
+  color: #796C6C;
+}
+
+
+header span:not(:last-child) {
+  margin-right: 150px;
+}
+
+.textpres {
+  font-family: 'Ibarra Real Nova', serif;
+  margin-left: auto;
+  margin-top: 80px;
+  margin-left: 70px;
+  line-height: 1;
+}
+
+.titlepres {
+  font-size: 60px;
+  color: #796C6C;
+}
+
+.descriptionpres {
+  white-space: pre-wrap;
+  max-width: 450px;
+  line-height: 1.5;
+  font-weight: 100;
+  color:#848382;
+}
+
+        
+.signup {
+  background-color: #796C6C;
+  border-radius: 12px;
+  color: #F5F4F2;
+  padding: 10px 30px;
+}
+
+.start-button {
+  background-color: #796C6C;
+  border-radius: 12px;
+  color: #F5F4F2;
+  padding: 10px 47px;
+  text-align: center;
+  border: none;
+  margin-top: 20px;
+  margin-left: 70px;
+  font-size: 25px;
+  font-family: 'Ibarra Real Nova', serif;
+}
+
+.instalogo {
+  margin-top: 40px;
+  margin-left: 70px;
+  height: 32px;
+  padding-bottom: 90px;
+}
+
+.fblogo {
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 32px;
+  padding-bottom: 90px;
+}
+
+.columns {
+  display: flex;
+}
+
+.girl {
+  position: absolute;
+  bottom: 0;
+  right: 150px;
+  height: 580px;
+}
+  
+
+
