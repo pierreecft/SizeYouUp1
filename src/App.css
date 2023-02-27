@@ -1,4 +1,4 @@
-.App {
+.Home {
   background-color: #F5F4F2;
 }
 
@@ -6,7 +6,7 @@
   width: 192px;
   height: 153px;
   margin-right: 520px;
-  
+  position: fixed;
 }
 
 .navbar {
@@ -28,8 +28,16 @@
 }
 
 
-header span:not(:last-child) {
+header a:not(:last-child) {
   margin-right: 150px;
+  text-decoration: none;
+}
+
+.about:hover {
+  background-color: #796C6C;
+  border-radius: 12px;
+  color: #F5F4F2;
+  padding: 10px 30px;
 }
 
 .textpres {
