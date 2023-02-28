@@ -1,3 +1,74 @@
 .About {
-    color: black;
+    background-color: #F5F4F2;
 }
+
+.headerAbout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.smallLogo{
+    width: 140px;
+  height: 153px;
+}
+
+
+
+
+
+.divImg {
+    margin-left: 30px;
+    position: absolute; left: 0;
+}
+
+.titleAbout {
+    font-size: 60px;
+    color: #796C6C;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.textABout{
+    
+  max-width: 800px;
+  line-height: 1.5;
+  font-weight: 400;
+  color:#848382;
+  
+}
+
+.DivtextABout{
+    display: flex;
+    justify-content: center; align-items: center; 
+    flex-wrap: wrap;
+}
+
+.backButton{
+    background-color: #796C6C;
+  border-radius: 12px;
+  color: #F5F4F2;
+  padding: 6px 22px;
+  text-align: center;
+  border: none;
+  margin-top: 0px;
+  margin-left: 40px;
+  font-size: 20px;
+  font-family: 'Ibarra Real Nova', serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.backButton:hover{
+    transform: translate(0px,-6px);
+    box-shadow: 10px -10px 25px 0;
+}
+
+.backButton:hover::after{
+    transform: rotate(150deg);
+}
+/* .titleAbout {
+    justify-content: center;
+    align-items: center;
+} */
+

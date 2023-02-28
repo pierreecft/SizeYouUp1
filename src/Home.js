@@ -10,13 +10,18 @@ function Home() {
   return (
     <div className="Home">
         <header className="navbar">
-          <img src={logo} className="App-logo" alt="logo" />
+            <div className='biglogo'>
+                <img src={logo} className="App-logo" alt="logo" />
+            </div>
+
+          
           <div className='textNavbar'>
             
               <a className='about' href="About"> About us</a>
             
-            <a className='login'> Login</a>
-            <a className='signup'> Sign up</a>
+            <a className='login' href="Login"> Login</a>
+            <button className='signup'><a  href="Signup" className='textButton'> Sign up </a></button>
+            
           </div>
         </header>
         <div className='columns'>

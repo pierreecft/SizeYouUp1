@@ -1,0 +1,52 @@
+.Signup {
+    background-color: #F5F4F2;
+}
+
+.formLog1 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.password1 {
+    background-color: rgba(121, 108, 108, 0.28);
+    border: none;
+    border-radius: 6px;
+    font-size:30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.email1 {
+    background-color: rgba(121, 108, 108, 0.28);
+    border: none;
+    border-radius: 6px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.textForm{
+    font-size: 30px;
+    color: rgba(121, 108, 108, 1);
+}
+
+.buttonForm1{
+    margin-top: 40px;
+    margin-bottom: 80px;
+    background-color: rgba(121, 108, 108, 1);
+    color: #F5F4F2;
+    font-size: 35px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 42px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.buttonForm1:hover{
+    transform: translate(0px,-6px);
+    box-shadow: 10px -10px 25px 0;
+}
+
+.buttonForm1:hover::after{
+    transform: rotate(150deg);
+}
