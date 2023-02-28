@@ -31,7 +31,10 @@ function Home() {
                 <h1 className='titlepres'>You Can Decide</h1>
                 <h3 className='descriptionpres'>SizeYouUp is a web platform that allows you to measure your dimensions in real time, and returns the ideal size according to your preferred brands.</h3>
             </div>
+            <a href='Select'>
             <button className="start-button">Let's start</button>
+            </a>
+            
             <div>
               <img src={insta} className="instalogo" alt="logo"/>
               <img src={fb} className="fblogo" alt="logo"/>

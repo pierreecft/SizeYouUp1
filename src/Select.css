@@ -1,0 +1,82 @@
+.titleAbout1 {
+    font-size: 40px;
+    color: #796C6C;
+    font-family: 'Ibarra Real Nova', serif;
+    margin-top: 30px;
+}
+
+.smallLogo2{
+    width: 140px;
+    height: 153px;
+} 
+
+.textABout1{
+    
+  max-width: 600px;
+  line-height: 1.5;
+  font-weight: 400;
+  color:#848382;
+  
+}
+.headerSelect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.selectLogos{
+    background-color: rgb(70, 49, 49, 0.38);
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+.adidas{
+    background-color: #796C6C;
+    width: 160px; /* Largeur de la div */
+  height: 160px; /* Hauteur de la div */
+  border-radius: 50%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:15px
+
+}
+
+.smallLogo1{
+    width: 120px;
+  height: 82px;
+  
+}
+
+.backButton2 {
+    background-color: #796C6C;
+    border-radius: 12px;
+    color: #F5F4F2;
+    padding: 6px 22px;
+    text-align: center;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: 'Ibarra Real Nova', serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  
+  .backButton2:hover{
+      transform: translate(0px,-6px);
+      box-shadow: 10px -10px 25px 0;
+  }
+  
+  .backButton2:hover::after{
+      transform: rotate(150deg);
+  }

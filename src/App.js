@@ -6,6 +6,7 @@ import About from './About';
 import Home from './Home'
 import Login from './Login';
 import Signup from './Signup';
+import Select from './Select';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path='/About' element={<About />} />
           <Route path='/Login' element={<Login />} />
           <Route path='/Signup' element={<Signup />} />
+          <Route path='/Select' element={<Select />} />
         </Routes>
         
       </div>
