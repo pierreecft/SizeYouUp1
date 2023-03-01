@@ -41,10 +41,10 @@ const signUp = (e) => {
       </header>
       <div>
         <form className='formLog1' onSubmit={signUp}>
-            {/* <div>
+            <div>
             <label className='textForm' htmlFor="name"> Full name :   </label>
             <input value={name} type="text" id="email" placeholder='Kobe Bryant' onChange={(e) => setName(e.target.value)}className="email1" required />
-            </div> */}
+            </div> 
             <div>
             <label className='textForm' htmlFor="email"> Email :   </label>
             <input value={email} type="text" id="email" placeholder='youremail@gmail.com' onChange={(e) => setEmail(e.target.value)} className="email1" required />
@@ -57,13 +57,18 @@ const signUp = (e) => {
             <label className='textForm' htmlFor="password">Confirm the password :   </label>
             <input type="password1" id="password1"  className="password1" required />
             </div> */}
+            <a href="Select">
             <div>
             <input className='buttonForm1' type="submit" value="Sign up" />
+            </div>
+            </a>
+            
+
             <div className='textNew'>
               <h5 className='textNew1'>Already have an account ?   </h5>
              <h5 className='newAccount' onClick={() => props.onFormSwitch('login')}>   Log in here</h5>
             </div>
-            </div>
+            
             
         </form>
     </div>  

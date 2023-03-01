@@ -72,7 +72,7 @@ function Select() {
       </div>
       <div>
       <div className='adidas'>
-            <img src={nike} className="smallLogo1" alt="logo" />
+            <img src={nike} className="smallLogo3" alt="logo" />
             </div>
             <div className='adidas'>
             <img src={puma} className="smallLogo1" alt="logo" />

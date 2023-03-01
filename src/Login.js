@@ -46,9 +46,12 @@ export  const Login = (props) => {
             <label className='textForm' htmlFor="password">Password :   </label>
             <input value={password} type="password" id="password" onChange={(e) => setPassword(e.target.value)} className="password" placeholder="********" required />
             </div>
+            <a href="Select">
             <div>
             <input className='buttonForm' type="submit" value="Log in" />
             </div>
+            </a>
+            
             
             <div className='textNew'>
               <h5 className='textNew1'>New on Size You Up ?   </h5>
