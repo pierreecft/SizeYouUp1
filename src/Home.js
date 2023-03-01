@@ -19,8 +19,8 @@ function Home() {
             
               <a className='about' href="About"> About us</a>
             
-            <a className='login' href="Login"> Login</a>
-            <button className='signup'><a  href="Signup" className='textButton'> Sign up </a></button>
+            <a className='login' href="DisplayForm"> Login</a>
+            <button className='signup'><a  href="DisplayFormSignUp" className='textButton'> Sign up </a></button>
             
           </div>
         </header>
@@ -31,7 +31,7 @@ function Home() {
                 <h1 className='titlepres'>You Can Decide</h1>
                 <h3 className='descriptionpres'>SizeYouUp is a web platform that allows you to measure your dimensions in real time, and returns the ideal size according to your preferred brands.</h3>
             </div>
-            <a href='Select'>
+            <a href='DisplayForm'>
             <button className="start-button">Let's start</button>
             </a>
             

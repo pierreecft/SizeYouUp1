@@ -1,8 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Login.css'
 import SmLogo from './images/logosmall.png'
+import { auth } from './firebase'
+import { signInWithEmailAndPassword,  } from 'firebase/auth'
 
-function Login() {
+export  const Login = (props) => {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  // const handleSubmit = (e) => {
+  //     e.preventDefault();
+  //     console.log(email);
+  // }
+
+  const signIn = (e) => {
+    e.preventDefault();
+    signInWithEmailAndPassword(auth, email, password)
+    .then((userCredential) => {
+      console.log(userCredential);
+    })
+    .catch((error) => {
+      console.log(error)
+    });
+  }
+
   return (
     <div>
         <header className='headerAbout'>
@@ -16,14 +37,14 @@ function Login() {
         </div>
       </header>
       <div>
-        <form className='formLog'>
+        <form className='formLog' onSubmit={signIn}>
             <div>
-            <label className='textForm' htmlFor="email"> Email :   </label>
-            <input type="text" id="email" className="email" required />
+            <label className='textForm' htmlFor="email" > Email :   </label>
+            <input value={email} type="text" id="email" onChange={(e) => setEmail(e.target.value)} className="email" placeholder="youremail@gmail.com" required />
             </div>
             <div>
             <label className='textForm' htmlFor="password">Password :   </label>
-            <input type="password" id="password" className="password" required />
+            <input value={password} type="password" id="password" onChange={(e) => setPassword(e.target.value)} className="password" placeholder="********" required />
             </div>
             <div>
             <input className='buttonForm' type="submit" value="Log in" />
@@ -31,15 +52,15 @@ function Login() {
             
             <div className='textNew'>
               <h5 className='textNew1'>New on Size You Up ?   </h5>
-              <a className='newAccount' href='Signup'><h5>   Create an account</h5></a>
+              <h5 className='newAccount' onClick={() => props.onFormSwitch('signup')}>   Create an account here</h5>
             </div>
 
-            <a className='forgot' >Forgot password ? </a>
+            <a className='forgot' href='/'>Forgot password ? </a>
             
         </form>
     </div>  
     <a href='/'>
-    <button className='backButton1' >Back</button>
+    <button  className='backButton1' >Back</button>
     </a>
     
     </div>
